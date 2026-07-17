@@ -32,7 +32,7 @@ export default function Navbar() {
     { href: "#product", label: "Product" },
     { href: "#pricing", label: "Pricing" },
     { href: "#why", label: "Why NutriBrix" },
-    { href: "#buy", label: "Where to Buy" },
+    { href: "/blog", label: "Blog" },
     { href: "#contact", label: "Contact" },
   ];
 

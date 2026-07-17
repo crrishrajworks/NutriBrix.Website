@@ -37,7 +37,11 @@ export const api = {
   deleteEnquiry: (id: number) =>
     request<any>(`/api/enquiries/${id}`, { method: "DELETE" }),
 
-  // Blog
+  // Blog (public)
+  getPublishedPosts: () => request<any[]>("/api/blog"),
+  getBlogPost: (slug: string) => request<any>(`/api/blog/${slug}`),
+
+  // Blog (admin)
   getBlogPosts: () => request<any[]>("/api/blog/admin/all"),
   createBlogPost: (data: any) =>
     request<any>("/api/blog", { method: "POST", body: JSON.stringify(data) }),
