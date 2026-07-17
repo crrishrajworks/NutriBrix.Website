@@ -148,15 +148,15 @@ export default function Footer() {
             </h4>
             <div className="inline-block bg-cream p-3 rounded-xl">
               <img
-                src={`https://api.qrserver.com/v1/create-qr-code/?size=224x224&margin=0&color=1B3D1C&bgcolor=FAF6EC&data=${encodeURIComponent("https://nutribrix.in")}`}
-                alt="QR code linking to nutribrix.in"
+                src={`https://api.qrserver.com/v1/create-qr-code/?size=224x224&margin=0&color=1B3D1C&bgcolor=FAF6EC&data=${encodeURIComponent("https://nutri-brix-website-44z8ujwp5-crrishrajworks-projects.vercel.app/#pricing")}`}
+                alt="QR code linking to NutriBrix pricing"
                 width={112}
                 height={112}
                 className="block rounded-md"
               />
             </div>
             <p className="mt-3.5 text-[0.78rem] text-kraft-pale/70 max-w-[200px] leading-rel">
-              Point your camera at this code to open nutribrix.in on your phone.
+              Point your camera at this code to view NutriBrix pricing on your phone.
             </p>
           </div>
         </div>
